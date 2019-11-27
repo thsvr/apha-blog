@@ -1,6 +1,6 @@
 <p>Create an article</p>
 
-<% if @articles.errors.any? %>
+<% if @article.errors.any? %>
 <ul>
     <%=  @article.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
