@@ -1,8 +1,16 @@
 @import "bootstrap";
 
 #logo {
-    color:black;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+#logo:hover {
+    color: black;
+    text-decoration: none;
+}
+
 
 #black {
     background-color:red;
